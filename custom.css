@@ -1,0 +1,10 @@
+.skill-grid {
+    box-shadow: 0 0 5px rgb(207, 207, 207);
+    border-radius: 5px;
+    transition: all ease-in 0.5s;
+}
+
+.skill-grid:hover {
+    box-shadow: 0 0 20px 5px rgb(207, 207, 207);
+    transform: scale(1.005);
+}
