@@ -11,33 +11,35 @@
   <script src="index.js" defer></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <title>James Protfolio</title>
+  <title>James Portfolio</title>
 </head>
 
-<body class="bg-gray-200 text-gray-900 text-justify ">
+<body class="text-justify ">
 
-  <header class="bg-white h-screen flex flex-col text-center justify-center items-center p-4">
+  <nav class="p-4 w-full flex justify-between sticky top-0">
+    <li><a href="index.html" class="nav-link">Home</a></li>
+    <li><a href="#about-me" class="nav-link">About</a></li>
+    <li><a href="#my-work" class="nav-link">My Work</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </nav>
 
-    <nav class="p-4 absolute right-16 top-4 ">
-      <li><a href="index.html" class="nav-link">Home</a></li>
-      <li><a href="#about-me" class="nav-link">About</a></li>
-      <li><a href="#my-work" class="nav-link">My Work</a></li>
-      <li><a href="#contact" class="nav-link">Contact</a></li>
-    </nav>
+  <header class="h-screen flex flex-col text-center justify-center items-center">
 
     <object type="image/svg+xml" data="avatar.svg" class="mx-auto"></object>
 
-    <p class="text-deep-orange-accent-100 text-3xl lg:text-5xl"> <b class="text-deep-orange-accent-200">Hi</b>, I'm James</p>
+    <p class=" text-3xl lg:text-5xl heading"> <b class="heading">Hi</b>, I'm James</p>
 
-    <p class="main-text text-gray-900 text-xl">I build Websites and code for fun</p>
+    <p class="main-text  text-xl">I build Websites and code for fun</p>
 
-    <a href="#about-me" class="links text-red-accent-200 hover:text-red-accent-700 font-semibold px-2 py-1 m-3 underline">learn more</a>
+    <a href="#about-me" class="links font-semibold px-2 py-1 mt-3">learn more</a>
+
+    <a href="resume.html" class="links font-semibold px-2">my resume</a>
     
   </header>
 
   <section id="about-me" class="flex flex-col p-8 xl:px-44 2xl:px-80 items-center">
       
-    <h1 class="text-deep-orange-accent-200 text-4xl font-bold p-4"> ABOUT</h1>
+    <h1 class="mt-8 text-4xl font-bold p-4 heading"> ABOUT</h1>
       
     <div class="flex flex-col sm:items-start sm:flex-row md:max-w-2xl lg:max-w-3xl">
 
@@ -49,68 +51,68 @@
 
     </div>
 
-    <h1 class="text-deep-orange-accent-200 text-3xl font-bold pt-10 pb-2"> My Skills</h1>
+    <h1 class=" text-3xl font-bold pt-10 pb-2"> My Skills</h1>
 
-    <!-- <div class="bg-gray-200 w-3/4 md:w-1/2 border-gray-400 border-solid border-2 h-8 my-2">
+    <!-- <div class="w-3/4 md:w-1/2 border-gray-300 border-solid border-2 h-8 my-2">
 
-      <div class="bg-deep-orange-accent-100 w-5/6 h-full">
-        <p class="text-gray-900 text-sm ml-2 font-extrabold">Lorem Skill</p>          
+      <div class="skill w-5/6 h-full">
+        <p class=" text-sm ml-2 text-black font-extrabold">Lorem Skill</p>          
       </div>
 
     </div> -->
 
-    <div class="bg-gray-200 w-3/4 md:w-1/2 border-gray-400 border-solid border-2 h-8 my-2">
+    <div class="w-3/4 md:w-1/2 border-gray-300 border-solid border-2 h-8 my-2">
 
-      <div class="bg-deep-orange-accent-100 w-5/6 h-full">
-        <p class="text-gray-900 text-sm ml-2 font-extrabold">HTML</p>          
+      <div class="skill w-5/6 h-full">
+        <p class=" text-sm ml-2 text-black font-extrabold">HTML</p>          
       </div> 
 
     </div>
 
-    <div class="bg-gray-200 w-3/4 md:w-1/2 border-gray-400 border-solid border-2 h-8 my-2">
+    <div class="w-3/4 md:w-1/2 border-gray-300 border-solid border-2 h-8 my-2">
 
-      <div class="bg-deep-orange-accent-100 w-4/6 h-full">
-        <p class="text-gray-900 text-sm ml-2 font-extrabold">CSS</p>
+      <div class="skill w-4/6 h-full">
+        <p class=" text-sm ml-2 text-black font-extrabold">CSS</p>
       </div> 
 
     </div>
     
-    <div class="bg-gray-200 w-3/4 md:w-1/2 border-gray-400 border-solid border-2 h-8 my-2">
+    <div class="w-3/4 md:w-1/2 border-gray-300 border-solid border-2 h-8 my-2">
 
-      <div class="bg-deep-orange-accent-100 w-2/6 h-full">
-        <p class="text-gray-900 text-sm ml-2 font-extrabold">JavaScript</p>
+      <div class="skill w-2/6 h-full">
+        <p class=" text-sm ml-2 text-black font-extrabold">JavaScript</p>
       </div> 
 
     </div>
       
-    <div class="bg-gray-200 w-3/4 md:w-1/2 border-gray-400 border-solid border-2 h-8 my-2">
+    <div class="w-3/4 md:w-1/2 border-gray-300 border-solid border-2 h-8 my-2">
 
-      <div class="bg-deep-orange-accent-100 w-1/6 h-full">
-        <p class="text-gray-900 text-sm ml-2 font-extrabold">React.JS</p>
+      <div class="skill w-1/6 h-full">
+        <p class=" text-sm ml-2 text-black font-extrabold">React.JS</p>
       </div> 
 
     </div>
       
-    <div class="bg-gray-200 w-3/4 md:w-1/2 border-gray-400 border-solid border-2 h-8 my-2">
+    <div class="w-3/4 md:w-1/2 border-gray-300 border-solid border-2 h-8 my-2">
 
-      <div class="bg-deep-orange-accent-100 w-3/6 h-full">
-        <p class="text-gray-900 text-sm ml-2 font-extrabold">Tailwind CSS</p>          
+      <div class="skill w-3/6 h-full">
+        <p class=" text-sm ml-2 text-black font-extrabold">Tailwind CSS</p>          
       </div> 
 
     </div>
 
   </section>
 
-  <section id="my-work" class="flex flex-col py-8 xl:px-44 2xl:px-80 items-center bg-gray-300">
+  <section id="my-work" class="flex flex-col py-8 xl:px-44 2xl:px-80 items-center">
 
-    <h1 class="text-deep-orange-accent-200 text-3xl font-bold pt-10 pb-2">
+    <h1 class=" text-3xl font-bold pt-10 pb-2">
       My Work</h1>
 
       <div class="flex justify-center flex-wrap">
 
-        <!-- <div class="py-4 px-4 m-4 w-96 relative skill-grid bg-gray-50 opacity-90 hover:opacity-100">
+        <!-- <div class="py-4 px-4 m-4 sm:w-72 md:w-96 relative skill-grid  opacity-90 hover:opacity-100">
 
-          <a target="_blank" href="" class="button_content__2muyb absolute top-2 right-2 rounded-full text-gray-800 bg-gray-200 p-2 border-gray-800 border-2 hover:text-black hover:bg-gray-300">
+          <a target="_blank" href="" class="button_content__2muyb absolute top-2 right-2 rounded-full  p-2  border-2 ">
 
             <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" style="color: currentcolor;">
               <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
@@ -121,10 +123,10 @@
           </a>
 
           <a target="_blank" href="">
-            <img src="" alt="Website Snapshot" srcset="" class="w-full h-auto border-2 border-gray-400">
+            <img src="" alt="Website Snapshot" srcset="" class="w-full h-auto border-2 ">
           </a>
 
-          <h4 class="font-bold pt-4 text-deep-orange-accent-200 text-lg">Lorem Ipsum</h4>
+          <h4 class="font-bold pt-4  text-lg">Lorem Ipsum</h4>
 
           <p class="text-xs pb-8">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, corrupti omnis magnam velit molestiae debitis rerum beatae! Enim, placeat eaque.
@@ -132,9 +134,34 @@
 
         </div>         -->
 
-        <div class="py-4 px-4 m-4 w-96 relative skill-grid bg-gray-50 opacity-90 hover:opacity-100">
+        <div class="py-4 px-4 m-4 sm:w-72 md:w-96 relative skill-grid  opacity-90 hover:opacity-100">
 
-          <a target="_blank" href="https://jaydhales-fcc-tribute-page.netlify.app/" class="button_content__2muyb absolute top-2 right-2 rounded-full text-gray-800 bg-gray-200 p-2 border-gray-800 border-2 hover:text-black hover:bg-gray-300">
+          <a target="_blank" href="https://blockchainclub.ng" class="button_content__2muyb absolute top-2 right-2 rounded-full  p-2  border-2 ">
+
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" style="color: currentcolor;">
+              <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+              <path d="M15 3h6v6"></path>
+              <path d="M10 14L21 3"></path>
+            </svg>
+
+          </a>
+
+          <a target="_blank" href="">
+            <img src="/Blockchain Website.png" alt="Website Snapshot" srcset="" class="w-full h-auto border-2 ">
+          </a>
+
+          <h4 class="font-bold pt-4  text-lg">Blockchain Club.ng</h4>
+
+          <p class="text-xs pb-8">
+            Collaboration with members of <a href="https://blockchainclub.ng" target="_blank" class="font-bold hover:">Blockchain OAU</a> to build the official website
+            </p>
+          </p>
+
+        </div>
+
+        <div class="py-4 px-4 m-4 sm:w-72 md:w-96 relative skill-grid  opacity-90 hover:opacity-100">
+
+          <a target="_blank" href="https://jaydhales-fcc-tribute-page.netlify.app/" class="button_content__2muyb absolute top-2 right-2 rounded-full  p-2  border-2 ">
 
             <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" style="color: currentcolor;">
               <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
@@ -145,20 +172,20 @@
           </a>
 
           <a target="_blank" href="https://jaydhales-fcc-tribute-page.netlify.app/">
-            <img src="fcc-tribute-page.png" alt="Website Snapshot" srcset="" class="w-full h-auto border-2 border-gray-400">
+            <img src="fcc-tribute-page.png" alt="Website Snapshot" srcset="" class="w-full h-auto border-2 ">
           </a>
 
-          <h4 class="font-bold pt-4 text-deep-orange-accent-200 text-lg">A Tribute Page</h4>
+          <h4 class="font-bold pt-4  text-lg">A Tribute Page</h4>
           
           <p class="text-xs pb-8">
-            A demo project from <a href="http://freecodecamp.org" target="_blank" rel="noopener noreferrer" class="font-bold hover:text-deep-orange-accent-200">Free Code Camp</a> as required for Responsive Web Design Certification
+            A demo project from <a href="http://freecodecamp.org" target="_blank" rel="noopener noreferrer" class="font-bold hover:">Free Code Camp</a> as required for Responsive Web Design Certification
           </p>
 
         </div>
 
-        <div class="py-4 px-4 m-4 w-96 relative skill-grid bg-gray-50 opacity-90 hover:opacity-100">
+        <div class="py-4 px-4 m-4 sm:w-72 md:w-96 relative skill-grid  opacity-90 hover:opacity-100">
 
-          <a target="_blank" href="https://jaydhales-fcc-landing.netlify.app/" class="button_content__2muyb absolute top-2 right-2 rounded-full text-gray-800 bg-gray-200 p-2 border-gray-800 border-2 hover:text-black hover:bg-gray-300">
+          <a target="_blank" href="https://jaydhales-fcc-landing.netlify.app/" class="button_content__2muyb absolute top-2 right-2 rounded-full  p-2  border-2 ">
 
             <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" style="color: currentcolor;">
               <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
@@ -169,20 +196,20 @@
           </a>
 
           <a target="_blank" href="https://jaydhales-fcc-landing.netlify.app/">
-            <img src="fcc-landing-page.png" alt="Website Snapshot" srcset="" class="w-full h-auto border-2 border-gray-400">
+            <img src="fcc-landing-page.png" alt="Website Snapshot" srcset="" class="w-full h-auto border-2 ">
           </a>
 
-          <h4 class="font-bold pt-4 text-deep-orange-accent-200 text-lg">Trombones Landing Page</h4>
+          <h4 class="font-bold pt-4  text-lg">Trombones Landing Page</h4>
 
           <p class="text-xs pb-8">
-            Another demo project from <a href="http://freecodecamp.org" target="_blank" rel="noopener noreferrer" class="font-bold hover:text-deep-orange-accent-200">Free Code Camp</a> as required for Responsive Web Design Certification
+            Another demo project from <a href="http://freecodecamp.org" target="_blank" rel="noopener noreferrer" class="font-bold hover:">Free Code Camp</a> as required for Responsive Web Design Certification
           </p>
 
         </div>
 
-        <div class="py-4 px-4 m-4 w-96 relative skill-grid bg-gray-50 opacity-90 hover:opacity-100">
+        <div class="py-4 px-4 m-4 sm:w-72 md:w-96 relative skill-grid  opacity-90 hover:opacity-100">
 
-          <a target="_blank" href="https://clipboard-landing-page-henna-nine.vercel.app/" class="button_content__2muyb absolute top-2 right-2 rounded-full text-gray-800 bg-gray-200 p-2 border-gray-800 border-2 hover:text-black hover:bg-gray-300">
+          <a target="_blank" href="https://clipboard-landing-page-henna-nine.vercel.app/" class="button_content__2muyb absolute top-2 right-2 rounded-full  p-2  border-2 ">
 
             <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" style="color: currentcolor;">
               <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
@@ -192,20 +219,20 @@
 
           </a>
           <a target="_blank" href="https://clipboard-landing-page-henna-nine.vercel.app/">
-            <img src="Clipboard landing page.png" alt="Website Snapshot" srcset="" class="w-full h-auto border-2 border-gray-400">
+            <img src="Clipboard landing page.png" alt="Website Snapshot" srcset="" class="w-full h-auto border-2 ">
           </a>
 
-          <h4 class="font-bold pt-4 text-deep-orange-accent-200 text-lg">Clipboard Landing Page</h4>
+          <h4 class="font-bold pt-4  text-lg">Clipboard Landing Page</h4>
 
           <p class="text-xs pb-8">
-            A demo Landing Page from <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="font-bold hover:text-deep-orange-accent-200">Frontend Mentor</a>
+            A demo Landing Page from <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="font-bold hover:">Frontend Mentor</a>
           </p>
 
         </div>
 
-        <div class="py-4 px-4 m-4 w-96 relative skill-grid bg-gray-50 opacity-90 hover:opacity-100">
+        <div class="py-4 px-4 m-4 sm:w-72 md:w-96 relative skill-grid  opacity-90 hover:opacity-100">
 
-          <a target="_blank" href="https://laptop-website-livid.vercel.app/" class="button_content__2muyb absolute top-2 right-2 rounded-full text-gray-800 bg-gray-200 p-2 border-gray-800 border-2 hover:text-black hover:bg-gray-300">
+          <a target="_blank" href="https://laptop-website-livid.vercel.app/" class="button_content__2muyb absolute top-2 right-2 rounded-full  p-2  border-2 ">
 
             <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" style="color: currentcolor;">
               <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
@@ -216,20 +243,20 @@
           </a>
 
           <a target="_blank" href="https://laptop-website-livid.vercel.app/">
-            <img src="laptop website.png" alt="Website Snapshot" srcset="" class="w-full h-auto border-2 border-gray-400">
+            <img src="laptop website.png" alt="Website Snapshot" srcset="" class="w-full h-auto border-2 ">
           </a>
 
-          <h4 class="font-bold pt-4 text-deep-orange-accent-200 text-lg">Laptop Website</h4>
+          <h4 class="font-bold pt-4  text-lg">Laptop Website</h4>
 
           <p class="text-xs pb-8">
-            A project Task from <a href="" target="_blank" class="font-bold hover:text-deep-orange-accent-200">Blockchain OAU</a>
+            A project Task from <a href="https://blockchainclub.ng" target="_blank" class="font-bold hover:">Blockchain OAU</a>
           </p>
 
         </div>
 
-        <div class="py-4 px-4 m-4 w-96 relative skill-grid bg-gray-50 opacity-90 hover:opacity-100">
+        <div class="py-4 px-4 m-4 sm:w-72 md:w-96 relative skill-grid  opacity-90 hover:opacity-100">
 
-          <a target="_blank" href="https://google-home-kappa.vercel.app/" class="button_content__2muyb absolute top-2 right-2 rounded-full text-gray-800 bg-gray-200 p-2 border-gray-800 border-2 hover:text-black hover:bg-gray-300">
+          <a target="_blank" href="https://google-home-kappa.vercel.app/" class="button_content__2muyb absolute top-2 right-2 rounded-full  p-2  border-2 ">
 
             <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" shape-rendering="geometricPrecision" style="color: currentcolor;">
               <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
@@ -240,12 +267,12 @@
           </a>
 
           <a target="_blank" href="https://google-home-kappa.vercel.app/">
-            <img src="google clone.png" alt="Website Snapshot" srcset="" class="w-full h-auto border-2 border-gray-400">
+            <img src="google clone.png" alt="Website Snapshot" srcset="" class="w-full h-auto border-2 ">
           </a>
-          <h4 class="font-bold pt-4 text-deep-orange-accent-200 text-lg">Google Homepage Clone</h4>
+          <h4 class="font-bold pt-4  text-lg">Google Homepage Clone</h4>
 
           <p class="text-xs pb-8">
-            A <a href="https://www.google.com" target="_blank" class="font-bold hover:text-deep-orange-accent-200">Google</a> bulit with Html & Css
+            A <a href="https://www.google.com" target="_blank" class="font-bold hover:">Google</a> built with Html & Css
           </p>
 
         </div>
@@ -253,6 +280,13 @@
       </div>
 
   </section>
+
+  <footer id="contact" class="px-4 py-8">
+    <h1 class="font-bold">Contact</h1>
+    
+    
+    
+  </footer>
 
 </body>
 </html>
