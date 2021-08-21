@@ -1,6 +1,6 @@
 # HNG Task 2
 
-## [Link to Live Project](james-web.vercel.app)  
+## [Link to Live Project](https://james-web.vercel.app)  
 
 ## Useful Links
 
