@@ -3,6 +3,10 @@ body {
     color: #333;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 nav, footer {
     background: #f5f5f5;
     z-index: 1;
@@ -49,3 +53,12 @@ object {
 .button_content__2muyb {
     background: #fdfdfd;
 }
+/* 
+
+#about-me {
+    opacity: 0;
+    transition: opacity 1000ms;
+}
+#about-me.scrolled {
+    opacity: 1;
+} */
