@@ -62,3 +62,16 @@ object {
 #about-me.scrolled {
     opacity: 1;
 } */
+.info {
+    background: none;
+    border-bottom: 1px solid #555;
+    resize: none;
+}
+.info::placeholder {
+    color:grey;
+}
+.submit-btn {
+    background: none;
+    border: 1px solid #555;
+    color: #333;
+}
