@@ -53,15 +53,6 @@ object {
 .button_content__2muyb {
     background: #fdfdfd;
 }
-/* 
-
-#about-me {
-    opacity: 0;
-    transition: opacity 1000ms;
-}
-#about-me.scrolled {
-    opacity: 1;
-} */
 .info {
     background: none;
     border-bottom: 1px solid #555;
