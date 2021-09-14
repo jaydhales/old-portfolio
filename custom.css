@@ -74,4 +74,9 @@ object {
     background: none;
     border: 1px solid #555;
     color: #333;
+    transition: all ease-in-out 0.5s;
+}
+.submit-btn:hover {
+    background: #568cd3;
+    color: #fdfdfd;
 }
