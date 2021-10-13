@@ -10,9 +10,37 @@ html{
 nav, footer {
     background: #f5f5f5;
     z-index: 1;
+    position: relative;
+    padding: 1.5rem;
 }
+.nav-toggle {
+    transition: all 0.5s ;
+    color: #3b6aa7;
+}
+
+.rotate {
+    transform: rotate(90deg);
+    color: #555;
+}
+
+.nav-links {
+    overflow: hidden;
+    height: 0;
+    transition: overflow 0.5s linear;
+}
+
+.show-nav {
+    overflow: visible;
+    height: auto;
+    position: absolute;
+    background: #f5f5f5;
+    width: 100%;
+    left: 0;
+}
+
 li {
     list-style: none;
+    padding: 0.6rem;
 }
 a {
     color: #3b6aa7;
@@ -70,4 +98,27 @@ object {
 .submit-btn:hover {
     background: #568cd3;
     color: #fdfdfd;
+}
+
+@media screen and (min-width:620px) {
+    nav {
+        padding: 1rem;
+    }
+    .nav-toggle {
+        display: none;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav-links {
+        width: 500px;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: auto;
+        overflow: visible;
+        height: auto;
+        position: relative;
+    }
+    li {
+        padding: 0;
+    }
 }

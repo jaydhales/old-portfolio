@@ -18,11 +18,16 @@
 
 <body class="text-justify ">
 
-  <nav class="p-4 w-full flex justify-between sticky top-0">
-    <li><a href="#home" class="nav-link">Home</a></li>
-    <li><a href="#about-me" class="nav-link">About</a></li>
-    <li><a href="#my-work" class="nav-link">My Work</a></li>
-    <li><a href="#contact" class="nav-link">Contact</a></li>
+  <nav class="w-full">
+    <button class="nav-toggle absolute right-4 top-2 z-10">
+      <i class="fas fa-bars fa-2x"></i>
+  </button>
+    <ul class="nav-links flex flex-col items-center">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about-me" class="nav-link">About</a></li>
+      <li><a href="#my-work" class="nav-link">My Work</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
   </nav>
 
   <header class="h-screen flex flex-col text-center justify-center items-center" id="home">
@@ -32,6 +37,18 @@
     <p class=" text-3xl lg:text-5xl heading"> <b class="heading">Hi</b>, I'm James</p>
 
     <p class="main-text  text-xl">I build Websites and code for fun</p>
+
+    <div>
+      <a href="https://github.com/jaydhales" target="_blank" class="social-link">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://twitter.com/jaydhales1" target="_blank" class="social-link">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/jaydhales" target="_blank" class="social-link">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
 
     <a href="#about-me" class="links font-semibold px-2 py-1 mt-3">learn more</a>
 
@@ -334,5 +351,6 @@
     
 </footer>
 
+<script src="index.js"></script>
 </body>
 </html>
