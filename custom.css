@@ -14,8 +14,10 @@ nav, footer {
     padding: 1.5rem;
 }
 .nav-toggle {
-    transition: all 0.5s ;
     color: #3b6aa7;
+}
+.nav-toggle:focus {
+    outline: none;
 }
 
 .rotate {
@@ -54,6 +56,10 @@ object {
 
 .heading, h1 {
     color: #6a5099;
+}
+
+i.fas {
+    border: none;
 }
 
 .skill {
