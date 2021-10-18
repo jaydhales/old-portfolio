@@ -15,6 +15,7 @@ nav, footer {
 }
 .nav-toggle {
     color: #3b6aa7;
+    transition: all 0.5s;
 }
 .nav-toggle:focus {
     outline: none;
@@ -28,16 +29,13 @@ nav, footer {
 .nav-links {
     overflow: hidden;
     height: 0;
-    transition: overflow 0.5s linear;
+    transition: all 0.5s;
+    width: 100%;
 }
 
 .show-nav {
-    overflow: visible;
-    height: auto;
-    position: absolute;
+    height: 172px;
     background: #f5f5f5;
-    width: 100%;
-    left: 0;
 }
 
 li {
@@ -89,20 +87,26 @@ i.fas {
 }
 .info {
     background: none;
-    border-bottom: 1px solid #555;
     resize: none;
+    transition: all 1s ease;
+    box-shadow: 0 0 2px #555;
+}
+.info:focus{
+    outline: none;
+    box-shadow: 0 0 2px 2px #568cd3;
 }
 .info::placeholder {
     color:grey;
 }
 .submit-btn {
-    background: none;
-    border: 1px solid #555;
+    background: #f5f5f5;
+    box-shadow: 0 0 2px 1px #555;
     color: #333;
-    transition: all ease-in-out 0.5s;
+    transition: all 0.5s;
 }
 .submit-btn:hover {
     background: #568cd3;
+    box-shadow: 0 0 0 1px #555;
     color: #fdfdfd;
 }
 
